@@ -5,6 +5,7 @@ import {
   HiOutlineCheckCircle,
   HiOutlineCurrencyDollar,
   HiOutlineHomeModern,
+  HiOutlineUsers,
 } from "react-icons/hi2";
 
 import DataItem from "../../ui/DataItem";
@@ -127,6 +128,9 @@ function BookingDataBox({ booking }) {
           <p>
             {numNights} nights in Cabin <span>{cabinName}</span>
           </p>
+          <span></span>
+          <HiOutlineUsers />
+          <p>{numGuests} guests.</p>
         </div>
 
         <p>
