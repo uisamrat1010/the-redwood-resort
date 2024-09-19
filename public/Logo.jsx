@@ -6,14 +6,14 @@ const StyledLogo = styled.div`
 `;
 
 const Img = styled.img`
-  height: 9.6rem;
+  height: 18rem;
   width: auto;
 `;
 
 function Logo() {
   const { isDarkMode } = useDarkMode();
 
-  const src = isDarkMode ? "/logo-dark.png" : "/logo-light.png";
+  const src = isDarkMode ? "/redwood-logo-dark.png" : "/redwood-logo-light.png";
 
   return (
     <StyledLogo>
