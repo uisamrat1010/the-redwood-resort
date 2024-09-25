@@ -21,6 +21,11 @@ function Login() {
       <Logo />
       <Heading as="h4">Log in to your account</Heading>
       <LoginForm />
+      <span style={{ textAlign: "center" }}>
+        username:- uisamratc@gmail.com &nbsp; <br />
+        password:- uisamratc4007%
+      </span>
+      <span> </span>
     </LoginLayout>
   );
 }
